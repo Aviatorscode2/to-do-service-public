@@ -1,20 +1,23 @@
 ---
 layout: page
 ---
-# Get all users
 
-Returns an array of [`user`](user) objects that contains all users that have registered with the service.
+# Get user by  name
+
+Returns an array of  [`user`](user) objects that contains only the user specified by the `first_name` parameter, if it exists.
 
 ## URL
 
 ```shell
 
-{server_url}/users
+{server_url}/users?first_name=<first name to find>
 ```
 
 ## Params
 
-None
+| Parameter name | Type | Description |
+| -------------- | ------ | ------------ |
+| `first_name` | string | The first name of the user to return |
 
 ## Request headers
 
@@ -28,19 +31,12 @@ None
 
 ```js
 [
-    {
+  {
         "last_name": "Smith",
         "first_name": "Ferdinand",
         "email": "f.smith@example.com",
         "id": 1
-    },
-    {
-        "last_name": "Jones",
-        "first_name": "Jill",
-        "email": "j.jones@example.com",
-        "id": 2
-    }
-    ...
+  }
 ]
 ```
 
@@ -49,4 +45,5 @@ None
 | Status value | Return status | Description |
 | ------------- | ----------- | ----------- |
 | 200 | Success | Requested data returned successfully |
+| 404 | Error | Specified property not found |
 |  ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
