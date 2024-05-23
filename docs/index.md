@@ -12,11 +12,11 @@ subscribers can post tasks and receive reminders of those tasks.
 
 ## Alternate overviews
 
-* Add a link to a better overview topic here (first one gets to remove/replace this line)
+* [deullmer's overview](overview-daniel.md)
 
 ## Quickstart
 
-[Post your first task _(coming soon)_](#quickstart) with the To-Do service to see how easy it is to use! (first one gets to remove/replace this line)
+[Quickstart (SineadC)](api/quickstart_sinead.md)
 
 ## Tutorials
 
@@ -36,7 +36,7 @@ After your system is ready, these tutorials show you how to perform common tasks
 * [Delete a task](tutorials/delete-a-task)
 * [Delete tasks by due date](tutorials/delete-tasks-by-due-date)
 * [Get a user by name](tutorials/get-a-user-by-name)
-* [Get tasks by title](tutorials/get-tasks-by-title)
+* [Get tasks by title](tutorials/get-tasks-by-title.md)
 * [Get tasks by a property](tutorials/get-task-by-property.md)
 * [Get a user by email](tutorials/get-user-by-email)
 * [Get tasks for a user](tutorials/get-tasks-for-a-user.md)
@@ -64,8 +64,8 @@ generally `http://localhost:3000`.
 * [task resource](api/task)
 * [Endpoint index](api/endpoint-index)
 * [Handling errors](api/handling-errors)
-* [Properties cheat sheet for successful requests](api/cs-for-successful-requests) 
-* [Get tasks by title](api/tasks-get-task-by-title.md)
+* [Properties cheat sheet for successful requests](api/cs-for-successful-requests)
+* [Get tasks by title](api/tasks-get-tasks-by-title.md)
 * [Get tasks by property](api/get-task-ref.md)
 * [Delete a task by ID](api/tasks-delete-by-id)
 * [task category resource](api/tasks-category)
