@@ -13,10 +13,20 @@ subscribers can post tasks and receive reminders of those tasks.
 ## Alternate overviews
 
 * [deullmer's overview](overview-daniel.md)
+* [Anne M's overview](overview_annem.md)
+* Get a comprehensive understanding of the tool by reading the [Overview](overview_sai)
+* [Overview-mhull](api/overview_mhull.md)
+* [Elizabeth's topic](overview-ep.md)
+* [Andy's Overview](overview_andy.md)
+* [Overview 1](overview-CG.md)
+* [Rob Overview](index_whyte.md)
+* [Overview (Kowalsky)](overview_kowalsky.md)
 
 ## Quickstart
 
 [Quickstart (SineadC)](api/quickstart_sinead.md)
+[Get Started](api/get-started.md) with the To-Do service to see how easy it is to use!
+[Enroll a new user](first-use-enroll-new-user-Conor-Teichroeb.md) in this quick example!
 
 ## Tutorials
 
